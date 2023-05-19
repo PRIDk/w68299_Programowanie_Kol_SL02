@@ -1,1 +1,3 @@
 git push - wypycha określoną gałąź do elementu wraz ze wszystkimi elementami. m. in. miejsce docelowe lub "sforsowanie" wypchania można określić dodatkowymi atrybutami
+
+link do GH: https://github.com/PRIDk/w68299_Programowanie_Kol_SL02

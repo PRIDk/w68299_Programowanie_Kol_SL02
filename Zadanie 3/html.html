@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        form {
+            padding: 30px;
+            width: 320px;
+            background-color: #dad4d4;
+            border-radius: 20px;
+        }
+
+        .control {
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .actions {
+            justify-content: center;
+        }
+
+        .error {
+            color: #F00
+        }
+
+        .contactAddress input, .province input, .province select {
+            width: 100%;
+        }
+    </style>
+
+<script type="text/javascript" defer src="js.js">
+</script>
+</head>
+
+<body>
+    <form class="form" name="form" method="post" novalidate>
+        <div class="control">
+            <label>Login</label>
+            <input type="text" name="Login">
+            <span class="error"></span>
+        </div>
+        <div class="control">
+            <label>Email: </label>
+            <input type="text" name="email">
+            <span class="error"></span>
+        </div>
+        <div class="control">
+            <label>Hasło: </label>
+            <input type="password" name="password">
+            <span class="error"></span>
+        </div>
+        <div class="control">
+            <label>Potwórz Hasło: </label>
+            <input type="password" name="confirm-password">
+            <span class="error"></span>
+        </div>
+        <div class="control actions">
+            <input type="submit" value="Zapisz">
+        </div>
+</form>
+    <script type="text/javascript" defer src="tabela.js">
+    </script>
+</body>
+
+</html>
