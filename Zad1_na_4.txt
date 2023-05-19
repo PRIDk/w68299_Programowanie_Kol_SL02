@@ -1,0 +1,1 @@
+git push - wypycha określoną gałąź do elementu wraz ze wszystkimi elementami. m. in. miejsce docelowe lub "sforsowanie" wypchania można określić dodatkowymi atrybutami
